@@ -27,6 +27,7 @@ Följande är extra och sådant ni inte måste ha med om ni inte hinner/vill/kan
 - Overlay-bilden med krukan kortbilden
 - Footer på kortet med avatar och meta-info
 - Galleriet högst upp kan ha en enklare design som i tablet-läget även på desktop
+- Olika färger på "tags" behövs inte om ni inte vill, använd bara den gröna accent-color på alla i så fall.
 - Hamburgar-menyn behöver ni bara göra som en ikon, all annan funktionalitet är superextra och inget som vi förväntar oss att ni gör!
 
 ## Övriga resurser
@@ -34,6 +35,7 @@ Följande är extra och sådant ni inte måste ha med om ni inte hinner/vill/kan
 - Använd gärna avatarer från [https://avatar-placeholder.iran.liara.run/avatars](https://avatar-placeholder.iran.liara.run/avatars)
 - Använd gärna bilder från [https://picsum.photos/](https://picsum.photos/). Vill ni använda andra är det ok, men se till att det ser bra ut i sammanhanget.
 - Vill ni ändra texter och lägga in egen info är det också ok, bara det fyller samma typ av funktion och inte ändrar sidans utseende bortom innehållet.
+- SVG finns i mappen Assets/Images och kan användas antingen som vanliga bilder eller direkt inkopierade som HTML i koden
 
 ## Design
 
