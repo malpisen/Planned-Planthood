@@ -5,6 +5,7 @@ Uppgiften är att göra en sida enligt nedanståend bilder, text och kod-stycken
 * Ni lämnar in genom att ladda upp till er GitHub (den ni angav i formuläret tidigare) med namnet "Planned Planthood".
 * Sen skriver ni i lärarchatten när ni är klara med uppgiften så vi vet (om ni inte meddelar bedömmer vi den i det skick den är kl 9.00 3/1, commits efter detta kommer ignoreras).
 ## Krav
+* Klona detta repo och använd som grund
 * Använd de variabler ni får som grund för sidans design
 * Ni ska lösa uppgiften enligt den design som anges i bilderna (responsiv från mobil-tablet-desktop)
 * Formulär och semantik ska vara tillgängligt (använd WAVE eller dylikt för att testa)
