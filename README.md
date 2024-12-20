@@ -9,7 +9,8 @@ Uppgiften är att göra en sida enligt nedanståend bilder, text och kod-stycken
 * Ni ska lösa uppgiften enligt den design som anges i bilderna (responsiv från mobil-tablet-desktop)
 * Formulär och semantik ska vara tillgängligt (använd WAVE eller dylikt för att testa)
 * Koden ska vara välformatterad och tydligt strukturerad med en genomtänkt namngivning på klasser samt ev kommentarer
-* Inga bibliotek som react, bootstrap, tailwind eller dylikt får användas, endast .CSS och .HTML (ev js) angivet i uppgift eller skriven av er ska lämnas in (om ni lånar en reset, flow-util, visually-hidden eller dylikt ange källa som kommentar i er kod).
+* Inga bibliotek som react, bootstrap, tailwind eller dylikt får användas, endast .CSS och .HTML (ev js).
+* Om ni lånar en reset, flow-util, visually-hidden eller dylikt ange källa som kommentar i er kod.
 * Var beredd på att förklara er kod muntligt så se till att ni förstår vad ni gör om ni rådfrågar andra/AI.
 * Länkarna ska vara semantiska men behöver inte gå någonstans (använd #)
 ## Minimum - Extra
