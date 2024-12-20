@@ -38,5 +38,6 @@ Följande är extra och sådant ni inte måste ha med om ni inte hinner/vill/kan
 ## Design
 
 Bilderna för designen ligger under Design mappen och innehåller bilder för de olika vyerna samt bild för hover state.<br>
+![Design Desktop](/Design/PlannedPlanthood-Desktop.png)
 För hover state gäller generellt att det är inverterat om det är annat än länkar. Länkar har understrykning vid hover, annars inte.<br>
 ![Hover States](/Design/PlannedPlanthood-Hover.png)
