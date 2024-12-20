@@ -11,7 +11,7 @@ Uppgiften är att göra en sida enligt nedanståend bilder, text och kod-stycken
 ## Krav
 
 - Klona detta repo och använd som grund
-- Använd de variabler ni får som grund för sidans design
+- Använd de variabler ni får i style.css som grund för sidans design
 - Ni ska lösa uppgiften enligt den design som anges i bilderna (responsiv från mobil-tablet-desktop)
 - Formulär och semantik ska vara tillgängligt (använd WAVE eller dylikt för att testa)
 - Koden ska vara välformatterad och tydligt strukturerad med en genomtänkt namngivning på klasser samt ev kommentarer
