@@ -11,7 +11,7 @@ Uppgiften är att göra en sida enligt nedanståend bilder, text och kod-stycken
 * Koden ska vara välformatterad och tydligt strukturerad med en genomtänkt namngivning på klasser samt ev kommentarer
 * Inga bibliotek som react, bootstrap, tailwind eller dylikt får användas, endast .CSS och .HTML (ev js) angivet i uppgift eller skriven av er ska lämnas in (om ni lånar en reset, flow-util, visually-hidden eller dylikt ange källa som kommentar i er kod).
 * Var beredd på att förklara er kod muntligt så se till att ni förstår vad ni gör om ni rådfrågar andra/AI.
-* Länkarna ska vara semantiska men behöver inte gå någonstans (använd /#)
+* Länkarna ska vara semantiska men behöver inte gå någonstans (använd #)
 ## Minimum - Extra
 Följande är extra och sådant ni inte måste ha med om ni inte hinner/vill/kan
 * Overlay-bilden med krukan kortbilden
