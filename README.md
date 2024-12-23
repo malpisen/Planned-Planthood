@@ -26,6 +26,7 @@ Följande är extra och sådant ni inte måste ha med om ni inte hinner/vill/kan
 - Footer på kortet med avatar och meta-info
 - Galleriet högst upp kan ha en enklare design som i tablet-läget även på desktop
 - Olika färger på "tags" behövs inte om ni inte vill, använd bara den gröna accent-color på alla i så fall.
+- Använd gärna en diskret transition på hover/focus-visible om ni vill.
 - Hamburgar-menyn behöver ni bara göra som en ikon, all annan funktionalitet är superextra och inget som vi förväntar oss att ni gör!
 
 ## Övriga resurser
