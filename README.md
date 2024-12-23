@@ -18,7 +18,7 @@ Uppgiften är att göra en sida enligt nedanståend bilder, text och kod-stycken
 - Om ni lånar en reset, flow-util, visually-hidden eller dylikt ange källa som kommentar i er kod.
 - Var beredd på att förklara er kod muntligt så se till att ni förstår vad ni gör om ni rådfrågar andra/AI.
 
-## Minimum - Extra
+## Extra
 
 Följande är extra och sådant ni inte måste ha med om ni inte hinner/vill/kan
 
