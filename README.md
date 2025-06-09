@@ -1,4 +1,4 @@
-# FE24 - Inlämningsuppgift Planned Planthood
+# Inlämningsuppgift Planned Planthood
 
 Uppgiften är att göra en sida enligt nedanståend bilder, text och kod-stycken.<br>
 
