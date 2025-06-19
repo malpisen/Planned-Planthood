@@ -9,125 +9,347 @@
 </head>
 
 <body>
+
   <header>
-    <img src="Assets/images/logo.svg" alt="Planned Planthood Logo" class="logo" />
-    <h1>Planned Planthood</h1>
-    <nav>
-      <ul>
+    <div class="logo-wrapper">
+      <img src="Assets/images/logo-green.svg" alt="Planned Planthood Logo" class="logo" height="50px" />
+      <h1 class="logo">Planned<br>Planthood</h1>
+    </div>
+
+    <nav class="main-nav">
+      <ul role="list" class="nav-list">
         <li><a href="#">Hem</a></li>
         <li><a href="#">Historik</a></li>
         <li><a href="#">Tips</a></li>
         <li><a href="#">Kontakt</a></li>
       </ul>
     </nav>
+    </div>
   </header>
 
   <main>
+
     <section>
       <h2>Uppskattade växter</h2>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, corporis ipsum.</p>
-      <div class="image-gallery">
-        <img src="https://picsum.photos/id/696/300/200" alt=" " />
-        <img src="https://picsum.photos/id/1080/300/200" alt=" " />
-        <img src="https://picsum.photos/id/106/300/200" alt=" " />
-        <img src="https://picsum.photos/id/292/300/200" alt=" " />
-        <img src="https://picsum.photos/id/701/300/200" alt=" " />
-        <img src="https://picsum.photos/id/360/300/200" alt=" " />
+      <div class="image-grid">
+        <img src="https://picsum.photos/id/360/600/400" alt="" />
+        <img src="https://picsum.photos/id/701/300/200" alt="" />
+        <img src="https://picsum.photos/id/696/300/200" alt="" />
+        <img src="https://picsum.photos/id/1080/300/200" alt="" />
+        <img src="https://picsum.photos/id/292/300/200" alt="" />
+        <img src="https://picsum.photos/id/106/300/200" alt="" />
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <form>
+        <label for="email">Anmäl dig till vårt nyhetsbrev så du inte missar en utsådd!</label>
+        <input type="email" id="email" name="email" placeholder="email@domain.com" />
+        <button type="submit">SKICKA</button>
+      </form>
+      <div class="image-frame">
+        <img src="Assets/images/icon-planting.svg" alt="" />
       </div>
     </section>
 
     <section>
-      <form>
-        <label for="email">Anmäl dig till vårt nyhetsbrev så du inte missar en utsådd!</label>
-        <input type="email" id="email" name="email">
-        <button type="submit">SKICKA</button>
-      </form>
-      <img src="Assets/images/icon-planting.svg" alt="Frön som ramlar ur en fröpåse ner i jord" />
+      <h2 class="visually-hidden">Odlingsgalleri</h2>
+      <ul class="cards" role="list">
+        <li class="card">
+          <article>
+            <img src="https://picsum.photos/id/16/300/200" alt="Gurkplanta" />
+            <!-- flexbox -->
+            <ul role="list" class="card-tags">
+              <li class="card-tag" data-tag="flower"><a href="#">Blommor</a></li>
+              <li class="card-tag" data-tag="edible"><a href="#">Ätbart</a></li>
+              <li class="card-tag" data-tag="green"><a href="#">Grönska</a></li>
+            </ul>
+            <h3>Gurka</h3>
+            <p>Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning,
+              omplantering, duschning och gödsling.</p>
+            <!-- footer -->
+            <p>
+              Coolio
+            </p>
+            <p>
+              2024-04-01
+            </p>
+          </article>
+        </li>
+
+        <li class="card">
+          <!-- flexbox -->
+          <img src="https://picsum.photos/id/16/300/200" alt="Gurkplanta" />
+          <ul role="list" class="card-tags">
+            <li class="card-tag" data-tag="flower"><a href="#">Blommor</a></li>
+            <li class="card-tag" data-tag="edible"><a href="#">Ätbart</a></li>
+            <li class="card-tag" data-tag="green"><a href="#">Grönska</a></li>
+          </ul>
+          <h3>Gurka</h3>
+          <p>Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning,
+            omplantering, duschning och gödsling.</p>
+          <!-- footer? -->
+          <p>
+            Coolio
+          </p>
+          <p>
+            2024-04-01
+          </p>
+        </li>
+
+        <li class="card">
+          <!-- flexbox -->
+          <img src="https://picsum.photos/id/16/300/200" alt="Gurkplanta" />
+          <ul role="list" class="card-tags">
+            <li class="card-tag" data-tag="flower"><a href="#">Blommor</a></li>
+            <li class="card-tag" data-tag="edible"><a href="#">Ätbart</a></li>
+            <li class="card-tag" data-tag="green"><a href="#">Grönska</a></li>
+          </ul>
+          <h3>Gurka</h3>
+          <p>Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning,
+            omplantering, duschning och gödsling.</p>
+          <!-- footer? -->
+          <p>
+            Coolio
+          </p>
+          <p>
+            2024-04-01
+          </p>
+        </li>
+
+        <li class="card">
+          <!-- flexbox -->
+          <img src="https://picsum.photos/id/16/300/200" alt="Gurkplanta" />
+          <ul role="list" class="card-tags">
+            <li class="card-tag" data-tag="flower"><a href="#">Blommor</a></li>
+            <li class="card-tag" data-tag="edible"><a href="#">Ätbart</a></li>
+            <li class="card-tag" data-tag="green"><a href="#">Grönska</a></li>
+          </ul>
+          <h3>Gurka</h3>
+          <p>Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning,
+            omplantering, duschning och gödsling.</p>
+          <!-- footer? -->
+          <p>
+            Coolio
+          </p>
+          <p>
+            2024-04-01
+          </p>
+        </li>
+
+        <li class="card">
+          <!-- flexbox -->
+          <img src="https://picsum.photos/id/16/300/200" alt="Gurkplanta" />
+          <ul role="list" class="card-tags">
+            <li class="card-tag" data-tag="flower"><a href="#">Blommor</a></li>
+            <li class="card-tag" data-tag="edible"><a href="#">Ätbart</a></li>
+            <li class="card-tag" data-tag="green"><a href="#">Grönska</a></li>
+          </ul>
+          <h3>Gurka</h3>
+          <p>Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning,
+            omplantering, duschning och gödsling.</p>
+          <!-- footer? -->
+          <p>
+            Coolio
+          </p>
+          <p>
+            2024-04-01
+          </p>
+        </li>
+
+        <li class="card">
+          <!-- flexbox -->
+          <img src="https://picsum.photos/id/16/300/200" alt="Gurkplanta" />
+          <ul role="list" class="card-tags">
+            <li class="card-tag" data-tag="flower"><a href="#">Blommor</a></li>
+            <li class="card-tag" data-tag="edible"><a href="#">Ätbart</a></li>
+            <li class="card-tag" data-tag="green"><a href="#">Grönska</a></li>
+          </ul>
+          <h3>Gurka</h3>
+          <p>Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning,
+            omplantering, duschning och gödsling.</p>
+          <!-- footer? -->
+          <p>
+            Coolio
+          </p>
+          <p>
+            2024-04-01
+          </p>
+        </li>
+
+        <li class="card">
+          <!-- flexbox -->
+          <img src="https://picsum.photos/id/16/300/200" alt="Gurkplanta" />
+          <ul role="list" class="card-tags">
+            <li class="card-tag" data-tag="flower"><a href="#">Blommor</a></li>
+            <li class="card-tag" data-tag="edible"><a href="#">Ätbart</a></li>
+            <li class="card-tag" data-tag="green"><a href="#">Grönska</a></li>
+          </ul>
+          <h3>Gurka</h3>
+          <p>Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning,
+            omplantering, duschning och gödsling.</p>
+          <!-- footer? -->
+          <p>
+            Coolio
+          </p>
+          <p>
+            2024-04-01
+          </p>
+        </li>
+
+        <li class="card">
+          <!-- flexbox -->
+          <img src="https://picsum.photos/id/16/300/200" alt="Gurkplanta" />
+          <ul role="list" class="card-tags">
+            <li class="card-tag" data-tag="flower"><a href="#">Blommor</a></li>
+            <li class="card-tag" data-tag="edible"><a href="#">Ätbart</a></li>
+            <li class="card-tag" data-tag="green"><a href="#">Grönska</a></li>
+          </ul>
+          <h3>Gurka</h3>
+          <p>Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning,
+            omplantering, duschning och gödsling.</p>
+          <!-- footer? -->
+          <p>
+            Coolio
+          </p>
+          <p>
+            2024-04-01
+          </p>
+        </li>
+
+        <li class="card">
+          <!-- flexbox -->
+          <img src="https://picsum.photos/id/16/300/200" alt="Gurkplanta" />
+          <ul role="list" class="card-tags">
+            <li class="card-tag" data-tag="flower"><a href="#">Blommor</a></li>
+            <li class="card-tag" data-tag="edible"><a href="#">Ätbart</a></li>
+            <li class="card-tag" data-tag="green"><a href="#">Grönska</a></li>
+          </ul>
+          <h3>Gurka</h3>
+          <p>Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning,
+            omplantering, duschning och gödsling.</p>
+          <!-- footer? -->
+          <p>
+            Coolio
+          </p>
+          <p>
+            2024-04-01
+          </p>
+        </li>
+
+        <li class="card">
+          <!-- flexbox -->
+          <img src="https://picsum.photos/id/16/300/200" alt="Gurkplanta" />
+          <ul role="list" class="card-tags">
+            <li class="card-tag" data-tag="flower"><a href="#">Blommor</a></li>
+            <li class="card-tag" data-tag="edible"><a href="#">Ätbart</a></li>
+            <li class="card-tag" data-tag="green"><a href="#">Grönska</a></li>
+          </ul>
+          <h3>Gurka</h3>
+          <p>Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning,
+            omplantering, duschning och gödsling.</p>
+          <!-- footer? -->
+          <p>
+            Coolio
+          </p>
+          <p>
+            2024-04-01
+          </p>
+        </li>
+
+        <li class="card">
+          <!-- flexbox -->
+          <img src="https://picsum.photos/id/16/300/200" alt="Gurkplanta" />
+          <ul role="list" class="card-tags">
+            <li class="card-tag" data-tag="flower"><a href="#">Blommor</a></li>
+            <li class="card-tag" data-tag="edible"><a href="#">Ätbart</a></li>
+            <li class="card-tag" data-tag="green"><a href="#">Grönska</a></li>
+          </ul>
+          <h3>Gurka</h3>
+          <p>Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning,
+            omplantering, duschning och gödsling.</p>
+          <!-- footer? -->
+          <p>
+            Coolio
+          </p>
+          <p>
+            2024-04-01
+          </p>
+        </li>
+
+        <li class="card">
+          <!-- flexbox -->
+          <img src="https://picsum.photos/id/16/300/200" alt="Gurkplanta" />
+          <ul role="list" class="card-tags">
+            <li class="card-tag" data-tag="flower"><a href="#">Blommor</a></li>
+            <li class="card-tag" data-tag="edible"><a href="#">Ätbart</a></li>
+            <li class="card-tag" data-tag="green"><a href="#">Grönska</a></li>
+          </ul>
+          <h3>Gurka</h3>
+          <p>Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning,
+            omplantering, duschning och gödsling.</p>
+          <!-- footer? -->
+          <p>
+            Coolio
+          </p>
+          <p>
+            2024-04-01
+          </p>
+        </li>
+      </ul>
     </section>
 
-    <section>
-      Blommor
-      Ätbart
-      Grönska
-      Gurka
-      Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning, omplantering,
-      duschning och gödsling.
-      Coolio
-      2024-04-01
-
-      Solälskande
-      Lättodlat
-      Ätbart
-      Tomat
-      En perfekt grönsak att odla på balkongen eller i trädgården. Ger riklig skörd under sommaren.
-      Anna Odlare
-      2024-12-05
-
-      Dekorativ
-      Färgstark
-      Tålig
-      Blommor
-      Pelargon
-      En vacker och lättskött blomma som trivs både inne och ute under sommaren.
-      Blomsterkalle
-      2024-12-03
-
-      Kryddor
-      Doftande
-      Solälskande
-      Basilika
-      En fantastisk krydda för pastarätter och sallader. Trivs bäst i ett soligt fönster.
-      Krydd-Malin
-      2024-12-07
-
-      Snabbväxande
-      Ätbart
-      Grönska
-      Sallad
-      Sallad är en av de enklaste grönsakerna att odla och ger snabba resultat för färska måltider.
-      Grönis
-      2024-12-06
-
-      Luftfuktande
-      Grönska
-      Dekorativ
-      Ormbunke
-      En klassisk växt som passar perfekt i badrummet eller på skuggiga platser.
-      Naturvännen
-      2024-12-08
-      </p>
-    </section>
-
-    <section>
-      <img src="Assets/images/icon-seedling.svg" alt="Liten planta i en kruka" />
+    <section class="previous-crops">
+      <div class="image-frame">
+        <img src="Assets/images/icon-seedling.svg" alt="" />
+      </div>
       <h2>Våra tidigare odlingar</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ratione quia eos pariatur deserunt
         veritatis. Tenetur, ipsum! Iusto delectus ipsam esse pariatur rerum eveniet nostrum, dolor distinctio nam
         quaerat doloribus?</p>
       <button type="button">Planterade plantor</button>
+    </section>
 
-      <footer>
-        <img src="Assets/images/logo.svg" alt="Planned Planthood Logo" class="logo" />
-        <h1>Planned Planthood</h1>
+  </main>
+
+  <footer>
+    <ul role="list" class="footer-list">
+      <li>
+        <div class="logo-wrapper">
+          <img src="Assets/images/logo.svg" alt="Planned Planthood Logo" class="logo" height="50px" />
+          <h1 class="logo">Planned<br>Planthood</h1>
+        </div>
 
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, veniam ducimus aut sint atque ullam alias
           perspiciatis fuga. Consequuntur nesciunt ea corrupti aperiam fugit inventore ratione earum. Iure, eius
           molestias?</p>
 
-        <img src="Assets/images/icon-phone.svg" alt="" />
-        <a>Telefon: 020-1234567</a>
-        <img src="Assets/images/icon-email.svg" alt="" />
-        <a>info@plannedplant.com</a>
-
-        <nav>
-          <ul>
+        <address class="contact-info">
+          <ul role="list">
+            <li>
+              <img src="Assets/images/icon-phone.svg" alt="" />
+              <a href="tel:0201234567">Telefon: 020-1234567</a>
+            </li>
+            <li>
+              <img src="Assets/images/icon-email.svg" alt="" />
+              <a href="mailto:info@plannedplant.com">info@plannedplant.com</a>
+            </li>
+          </ul>
+        </address>
+      </li>
+      <li>
+        <nav class="footer-nav">
+          <ul role="list">
             <li><a href="#">Hem</a></li>
             <li><a href="#">Historik</a></li>
             <li><a href="#">Tips</a></li>
             <li><a href="#">Kontakt</a></li>
           </ul>
         </nav>
-      </footer>
+      </li>
+    </ul>
+  </footer>
 </body>
 
 </html>
