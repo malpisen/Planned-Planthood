@@ -320,6 +320,10 @@ footer {
   }
 }
 
+.hamburger-menu {
+  display: none;
+}
+
 .image-grid {
   display: grid;
   grid-template-areas:
@@ -418,8 +422,13 @@ footer {
 
   img {
     width: 100%;
-    height: 100px;
+    max-height: 100px;
     object-fit: cover;
+  }
+
+  h3 {
+    margin-block: 0.5rem;
+    font-size: var(--fs-500);
   }
 
   footer {
@@ -435,6 +444,11 @@ footer {
       width: 50px;
       height: 50px;
       border-radius: 50%;
+      border: 1px solid var(--clr-primary-dark);
+    }
+
+    .username {
+      font-weight: var(--fw-semi-bold);
     }
   }
 }
@@ -443,62 +457,61 @@ footer {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  margin-block: 1rem;
 }
 
-/* ----- Card Tag colors ----- */
-.robust {
-  background-color: var(--clr-robust);
+/* ----- Card Tag colors/styles ----- */
+.card-tag {
+  border-radius: 999px;
+  padding: 0.2rem 0.5rem;
   color: var(--clr-primary-light-1);
+  text-transform: uppercase;
+  font-size: var(--fs-200);
+  font-weight: var(--fw-600);
 }
 
 .green {
   background-color: var(--clr-green);
-  color: var(--clr-primary-light-1);
+}
+
+.robust {
+  background-color: var(--clr-robust);
 }
 
 .flower {
   background-color: var(--clr-flower);
-  color: var(--clr-primary-light-1);
 }
 
 .colorful {
   background-color: var(--clr-colorful);
-  color: var(--clr-primary-light-1);
 }
 
 .sunloving {
   background-color: var(--clr-sunloving);
-  color: var(--clr-primary-light-1);
 }
 
 .air {
   background-color: var(--clr-air);
-  color: var(--clr-primary-light-1);
 }
 
 .decorative {
   background-color: var(--clr-decorative);
-  color: var(--clr-primary-light-1);
 }
 
 .edible {
   background-color: var(--clr-edible);
-  color: var(--clr-primary-light-1);
 }
 
 .easy {
   background-color: var(--clr-easy);
-  color: var(--clr-primary-light-1);
 }
 
 .fragrant {
   background-color: var(--clr-fragrant);
-  color: var(--clr-primary-light-1);
 }
 
 .fast {
   background-color: var(--clr-fast);
-  color: var(--clr-primary-light-1);
 }
 
 
@@ -506,7 +519,22 @@ footer {
 
 /* --- HEADER --- */
 /* Tablet and mobile*/
-@media screen and (1024px >=width) {}
+@media screen and (1024px >=width) {
+  .nav-list {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  .hamburger-menu {
+    display: unset;
+    margin-right: 1rem;
+  }
+}
 
 /* --- HERO --- */
 /* Tablet */
@@ -595,8 +623,6 @@ footer {
 /* --- FOOTER --- */
 /* Tablet and mobile*/
 @media screen and (1024px >=width) {
-
-  /* Used the same code as in .visually-hidden */
   .footer-nav {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
